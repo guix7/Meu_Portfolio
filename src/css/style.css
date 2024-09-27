@@ -1,0 +1,443 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+   
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    
+}
+
+.page_name{
+    font-size: 1.5rem;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7843e9;
+    font-family: "Bree Serif", serif;
+    margin-left: 2rem;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.custom-icon{
+    font-size: 3.5rem;
+    margin-left: 5rem;
+    color: #7843e9;
+    
+}
+
+.cabecalho ul{
+    display: flex;
+    margin-right: 5rem;
+}
+
+.cabecalho li{
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    
+}
+
+.cabecalho ul li a{
+    color: #575757;
+    transition: 0.3s;
+    font-family: "Bree Serif", serif;
+}
+
+.cabecalho ul li a:hover{
+    color: #7843e9;
+}
+
+
+
+.inicio{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/5661786.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 6.5rem;
+  
+  
+ }
+
+ .inicio h1{
+    font-size: 5rem;
+    margin-top: 12rem;
+    font-family: "Bree Serif", serif;
+ }
+
+ .inicio h2{
+    font-size: 2.5rem;
+    font-family: "Bree Serif", serif ;
+    color: #794dda;
+ }
+
+ .inicio p{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-family: "Bree Serif", serif ;
+ }
+
+ .btn{
+    width: 20rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #7843e9;
+    color: #fff;
+    padding: 1.5rem;
+    margin-top: 1.2rem;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+
+ }
+
+ .btn:hover{
+    cursor: pointer;
+    color: #7843e9;
+    background-color: #fff;
+    border: 2px solid #7843e9 ;
+}
+
+.arrow{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.arrow span{
+    width: 10px;
+    height: 28px;
+    background: #7843e9;
+    border-radius: 8px;
+    margin: 2px;
+    animation: move 1.1s infinite ease-in-out;
+
+
+}
+
+.arrow span:nth-child(1){
+    transform: rotate(-50deg);
+}
+.arrow span:nth-child(2){
+    transform: rotate(50deg);
+}
+
+@keyframes move{
+    0%{margin-top: 0;}
+    50%{margin-top: 100px;}
+    100%{margin-top: 0px;}
+}
+
+.arrow span:hover{
+    cursor: pointer;
+}
+
+.side-info{
+    position: absolute;
+    background-color: #fff;
+    width: 75px;
+    height: 280px;
+    left: 0;
+    top: 240px;
+    box-shadow: 1px 0px 10px 1px rgb(212, 212, 212);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.side-info i{
+    font-size: 2.0rem;
+    margin: 5px 0;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.side-info i:hover{
+    color: #ab8af0;
+}
+
+
+.sobre-mim{
+    width: 100%;
+    text-align: center;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.sobre-mim h2{
+    font-size: 3rem;
+}
+
+.division{
+    width: 40px;
+    height: 8px;
+    background-color: #7843e9;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.meet{
+    width: 50%;
+    text-align: left;
+    
+    
+    
+    
+    
+    
+}
+.meet p{
+    font-size: 1.2rem;
+    width: 75%;
+    font-weight: 200;
+    color: #575757;
+    margin: 15px 0px;
+    line-height: 30px; 
+    
+}
+
+.meet h3{
+    font-size: 2rem;
+    
+}
+
+.twin{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.skills{
+    width: 28%;
+   
+}
+
+.skills h3{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 1rem;
+   
+    
+}
+
+.i-skills{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-top: 15px;
+    
+    
+   
+}
+
+.i-skills p{
+    color: #575757;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    background-color: #f1f1f1;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.i-skills p:hover{
+    cursor: pointer;
+    background-color: #7843e9;
+    color: #fff;
+    padding: 12px;
+}
+
+.projetos{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos h2, .contato h2{
+    font-size: 3rem;
+}
+
+.projetos p, .contato p{
+    font-size: 1.4rem;
+    color: #575757;
+}
+
+.list-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+    width: 80%;
+   
+    
+    
+}
+
+.list-projetos img{
+    width: 50%;
+    padding: 15px;
+    
+}
+.descricao{
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.descricao h2{
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    text-align: left;
+}
+
+.descricao p{
+    width: 80%;
+    text-align: left;
+}
+
+.links{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+  
+}
+.links a{
+    display: block;
+    text-align: center;
+    
+    
+}
+
+.links p{
+    padding: 10px;
+    color: #575757;
+    background-color: #7843e9;
+    width: 140px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.links p:hover{
+    background-color: #FFF;
+    color: #7843e9;
+    border: 2px solid #7843e9;
+}
+
+
+
+.contato{
+    
+        padding: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fafafa;
+    
+}
+.meus-contatos{
+    width: 18%;
+    
+   
+
+}
+.contato .meus-contatos ul{
+    margin-top: 3rem;
+}
+.contato .meus-contatos ul li{
+    margin: 20px 0;
+}
+.contato .meus-contatos ul li a{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    background-color: #7843e9;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+
+.contato .meus-contatos ul li a:hover{
+    padding: 15px;
+    
+}
+.contato .meus-contatos ul li a i{
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+
+
+
+button{
+    display: block;
+}
+
+.rodape{
+    background-color: #212121;
+    width: 100%;
+    padding: 3rem;
+}
+
+.caixa{
+    width: 100%;
+    
+}
+
+.rodape .caixa p, .rodape .caixa h2{
+    color: #fff;
+    margin: 1rem 0;
+    text-align: center;
+}
+.rodape .caixa h2{
+    font-size: 1.6rem;
+}
+.rodape .caixa p{
+    font-size: 1rem;
+}
+
+.division-2{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}

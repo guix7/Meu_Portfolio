@@ -1,0 +1,671 @@
+@media(max-width: 1440px) {
+    .inicio {
+        width: 100%;
+        height: 65vh;
+        background-image: url(../img/5661786.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+
+
+    }
+
+    .inicio h1 {
+        font-size: 3rem;
+        margin-top: 8rem;
+        font-family: "Bree Serif", serif;
+    }
+
+    .inicio h2 {
+        font-size: 1.8rem;
+        font-family: "Bree Serif", serif;
+        color: #794dda;
+    }
+
+    .inicio p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-family: "Bree Serif", serif;
+    }
+
+    .btn {
+        width: 15rem;
+        border: none;
+        font-size: 1.2rem;
+        background-color: #7843e9;
+        color: #fff;
+        padding: 1rem;
+        margin-top: 1.2rem;
+        border-radius: 15px;
+        font-weight: bold;
+        transition: 0.3s;
+
+    }
+
+    .side-info {
+        position: absolute;
+        background-color: #fff;
+        width: 75px;
+        height: 280px;
+        left: 0;
+        top: 140px;
+        box-shadow: 1px 0px 10px 1px rgb(212, 212, 212);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sobre-mim {
+
+        text-align: center;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fafafa;
+    }
+
+    .sobre-mim h2 {
+        font-size: 1.8rem;
+    }
+
+    .meet {
+        width: 50%;
+        text-align: left;
+
+    }
+
+    .meet p {
+        font-size: 1rem;
+        width: 75%;
+        font-weight: 200;
+        color: #575757;
+        margin: 15px 0px;
+        line-height: 30px;
+
+    }
+
+    .meet h3 {
+        font-size: 1.6rem;
+
+    }
+
+    .skills {
+        width: 35%;
+
+
+
+    }
+
+    .skills h3 {
+        font-size: 1.6rem;
+        text-align: left;
+        margin-left: 1rem;
+
+
+    }
+
+    .i-skills {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 15px;
+
+
+
+
+    }
+
+    .i-skills p {
+        color: #575757;
+        font-size: 1.2rem;
+        margin: 0.5rem;
+        background-color: #f1f1f1;
+        padding: 8px;
+        text-align: center;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .projetos {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos h2,
+    .contato h2 {
+        font-size: 1.8rem;
+    }
+
+    .projetos p,
+    .contato p {
+        font-size: 1rem;
+
+    }
+
+    .list-projetos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 3rem;
+        width: 80%;
+
+
+
+    }
+
+    .list-projetos img {
+        width: 50%;
+        padding: 15px;
+
+    }
+
+    .list-projetos h2 {
+        font-size: 1.6rem;
+    }
+
+    .links {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        padding-top: 20px;
+
+
+    }
+
+    .links a {
+        display: block;
+        text-align: center;
+
+
+    }
+
+    .links p {
+        padding: 5px;
+        color: #575757;
+        background-color: #7843e9;
+        width: 120px;
+        text-align: center;
+        color: #fff;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .links p:hover {
+        background-color: #FFF;
+        color: #7843e9;
+        border: 2px solid #7843e9;
+    }
+
+    .reverso {
+        flex-direction: row;
+    }
+
+    .contato {
+
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fafafa;
+
+    }
+
+}
+
+@media(max-width:1028px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background-color: #fff;
+        margin-top: 0;
+
+    }
+
+    .page_name {
+        font-size: 1rem;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #7843e9;
+        font-family: "Bree Serif", serif;
+        margin-left: 2rem;
+
+    }
+
+    .custom-icon {
+        font-size: 2rem;
+        color: #7843e9;
+
+    }
+
+    .cabecalho ul {
+        display: flex;
+
+    }
+
+    .cabecalho li {
+        font-size: 1rem;
+        margin: 0 2rem;
+
+    }
+
+    .cabecalho ul li a {
+        color: #575757;
+        transition: 0.3s;
+        font-family: "Bree Serif", serif;
+    }
+
+
+    .inicio {
+        width: 100%;
+        height: 50vh;
+        background-image: url(../img/5661786.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-top: 2rem;
+    }
+
+    .inicio h1 {
+        font-size: 1.6rem;
+        margin-top: 6rem;
+        font-family: "Bree Serif", serif;
+    }
+
+    .inicio h2 {
+        font-size: 1.2rem;
+        font-family: "Bree Serif", serif;
+        color: #794dda;
+    }
+
+    .inicio p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-family: "Bree Serif", serif;
+    }
+
+    .arrow {
+        width: 20%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-info {
+        position: absolute;
+        background-color: #fff;
+        width: 55px;
+        height: 230px;
+        left: 0;
+        top: 100px;
+        box-shadow: 1px 0px 10px 1px rgb(212, 212, 212);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .side-info i {
+        font-size: 1.8rem;
+        margin: 5px 0;
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+    .links {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        padding-top: 20px;
+
+
+    }
+
+    .links a {
+        display: block;
+        text-align: center;
+
+
+    }
+
+    .links p {
+        padding: 5px;
+        width: 100px;
+        text-align: center;
+        color: #fff;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .meus-contatos{
+        width: 25%;
+        
+       
+    
+    }
+    .contato .meus-contatos ul{
+        margin-top: 2rem;
+    }
+    .contato .meus-contatos ul li{
+        margin: 20px 0;
+    }
+    .contato .meus-contatos ul li a{
+        color: #fff;
+        font-size: 1.4rem;
+        display: block;
+        background-color: #7843e9;
+        padding: 10px;
+        border-radius: 15px;
+        transition: 0.3s;
+        
+    }
+    
+    .contato .meus-contatos ul li a:hover{
+        padding: 15px;
+        
+    }
+    .contato .meus-contatos ul li a i{
+        color: #fff;
+        padding-right: 10px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .cabecalho .logo {
+        display: none;
+    }
+
+    .cabecalho {
+        bottom: 200px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 0px 0px 10px #969696;
+    }
+
+    .cabecalho nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cabecalho a{
+        font-size: 0.8rem;
+    }
+
+    .inicio{
+        height: 40vh;
+    }
+
+    .inicio h1{
+        margin-top: 3rem;
+    }
+
+    .side-info{
+        display: none;
+    }
+
+    .sobre-mim{
+        background-color: #fafafa;
+    }
+    .sobre-mim .twin{
+        flex-direction: column;
+        
+    }
+
+    .sobre-mim .meet{
+        width: 100%;
+        text-align: justify;
+        
+       
+    }
+
+    .sobre-mim .meet h3{
+        
+        text-align: center;
+    }
+    .sobre-mim .meet p{
+        margin: 15px auto;
+        font-size: 0.8rem;
+        line-height: 20px;
+        
+    }
+
+    .skills{
+        margin: 0 auto;
+        width: 80% ;
+       
+    }
+
+    .skills h3{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .i-skills{
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+
+    .projetos p{
+        font-size: 0.8rem;
+    }
+
+    .list-projetos{
+        flex-direction: column;
+        
+        
+        
+    }
+
+    .list-projetos .descricao{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .list-projetos .descricao h2{
+        font-size: 1rem;
+        margin: 0 auto;
+        
+    }
+    .list-projetos .descricao p{
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    .links{
+        margin: 0 auto;
+        
+    }
+
+    .links p{
+        
+        width: 150px;
+    }
+
+    .caixa{
+        width: 100%;
+       
+    }
+
+    .rodape{
+        padding: 2rem;
+        
+    }
+
+    .rodape .caixa h2{
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+    .caixa h2, .caixa p{
+       
+        width: 100%;
+    }
+
+    .rodape .caixa p{
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .rodape .caixa ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+       
+    }
+    .rodape .caixa ul li{
+        margin: 0 15px;
+    }
+    .rodape .caixa ul li a i{
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .meus-contatos{
+        width: 25%;
+        
+       
+    
+    }
+    .contato .meus-contatos ul{
+        margin-top: 1rem;
+    }
+    .contato .meus-contatos ul li{
+        margin: 20px 0;
+    }
+    .contato .meus-contatos ul li a{
+        color: #fff;
+        font-size: 1rem;
+        display: block;
+        background-color: #7843e9;
+        padding: 10px;
+        border-radius: 15px;
+        transition: 0.3s;
+        
+    }
+    
+    .contato .meus-contatos ul li a:hover{
+        padding: 15px;
+        
+    }
+    .contato .meus-contatos ul li a i{
+        color: #fff;
+        padding-right: 10px;
+    }
+
+}
+
+@media(max-width: 425px){
+    .cabecalho nav ul li{
+        margin: 15px;
+    }
+    
+    .sobre-mim p{
+       font-size: 0.8rem;
+        
+    }
+    
+
+    .descricao h2{
+        text-align: center;
+        
+    }
+    .links{
+        width: 100%;
+        
+    }
+
+    .links p{
+        width: 120px;
+    }
+
+    .list-projetos img{
+        width: 80%;
+    }
+    .meus-contatos{
+        width: 45%;
+        
+    }
+    .contato .meus-contatos ul li a{
+        color: #fff;
+        font-size: 0.8rem;
+        display: block;
+        background-color: #7843e9;
+        padding: 10px;
+        border-radius: 15px;
+        transition: 0.3s;
+        
+    }
+
+    
+}
+
+@media(max-width: 375px){
+    .cabecalho{
+        padding: 1.8rem;
+    }
+    .cabecalho nav ul li{
+        margin: 15px;
+    }
+    .cabecalho nav ul li a{
+        font-size: 0.7rem;
+    }
+
+    .projetos p{
+        text-align: center;
+        
+    }
+
+    .list-projetos img{
+        width: 100%;
+    }
+
+    .list-projetos .descricao .links a p{
+        width: 100px;
+    }
+
+   
+    .skills h3, .meet h3{
+        font-size: 1.4rem;
+        
+    }
+    .i-skills p, .meet p{
+        font-size: 0.6rem;
+    }
+
+    .contato p{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

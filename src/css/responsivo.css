@@ -631,9 +631,10 @@
     
 }
 
-@media(max-width: 375px){
+@media(max-width: 393px){
     .cabecalho{
         padding: 1.8rem;
+        height: 5vh;
     }
     .cabecalho nav ul li{
         margin: 15px;
@@ -662,6 +663,18 @@
     }
     .i-skills p, .meet p{
         font-size: 0.6rem;
+    }
+
+    .i-skills{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-top: 15px;
+        
+        justify-content: center;
+        
+        
+       
     }
 
     .contato p{
